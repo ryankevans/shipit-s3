@@ -1,0 +1,25 @@
+{
+  "name": "shipit-s3",
+  "version": "0.0.1",
+  "description": "AWS S3 deployment strategy for shipit-deploy.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryankevans/shipit-s3.git"
+  },
+  "author": "Ryan K. Evans",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ryankevans/shipit-s3/issues"
+  },
+  "homepage": "https://github.com/ryankevans/shipit-s3#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "coffee-script": "^1.10.0",
+    "commander": "^2.11.0",
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1",
+    "shipit-common": "ryankevans/shipit-common#93297c8"
+  }
+}
