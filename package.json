@@ -20,6 +20,6 @@
     "commander": "^2.11.0",
     "lodash": "^4.17.4",
     "moment": "^2.18.1",
-    "shipit-common": "ryankevans/shipit-common#93297c8"
+    "shipit-common": "ryankevans/shipit-common#3162950"
   }
 }
