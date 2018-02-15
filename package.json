@@ -1,6 +1,6 @@
 {
   "name": "shipit-s3",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "AWS S3 deployment strategy for shipit-deploy.",
   "main": "index.js",
   "scripts": {},
