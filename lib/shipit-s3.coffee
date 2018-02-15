@@ -15,13 +15,9 @@ module.exports = (shipit) ->
   s3cli = null
   version = null
 
-  shipit.task('deploy', [
-    'deploy:init'
-    'deploy:fetch'
-    'deploy:s3:update'
-    'deploy:s3:publish'
-    'deploy:s3:clean'
-  ])
+  shipit.task('deploy:update',  ['deploy:s3:update'])
+  shipit.task('deploy:publish', ['deploy:s3:publish'])
+  shipit.task('deploy:clean',   ['deploy:s3:clean'])
 
   shipit.blTask 'rollback', ->
     shipit.start 's3:init', 'rollback:init'
